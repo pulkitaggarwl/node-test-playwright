@@ -16,4 +16,4 @@ jobs:
         run: npx playwright install-deps
 
       - name: Install dependencies and run tests
-        run: npm install && jest test
+        run: npm install && npm test
